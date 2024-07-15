@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 20px;
+    font-family: 'Segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    height: 100vh;
+    box-flex-group: #d8f1ff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pwdmanager{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    background-color: rgb(0,0,79);
+    padding: 50px;
+    border-radius: 10px;
+}
+
+.pwdmanager h1{
+    color:white;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.pwdmanager input{
+    border:none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding: 8px;
+    width: 390px;
+}
+
+.pwdmanager button{
+    background-color: rgb(2,199,2);
+    border: none;
+    padding: 10px;
+    border-radius:5px;
+    color:white;
+    width: 390px;
+}
+
+.pwdmanager p{
+    color:#f2f2f2;
+    justify-content: space-between;
+}
+
+.pwdmanager a{
+    color:rgb(69, 190, 255);
+    margin-left: 157px;
+}
+
+.pwdlist{
+    color:white
+}
